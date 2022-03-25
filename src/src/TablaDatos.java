@@ -85,7 +85,7 @@ public class TablaDatos extends JPanel implements ActionListener {
                 int columna = tabla.getSelectedColumn();
                 Persona persona = new Persona();
                 persona = Arrpersona.get(fila);
-                DefaultTableModel modelo = new DefaultTableModel();
+                //DefaultTableModel modelo = new DefaultTableModel();
                 switch (columna) {
                     case 0:
                         String nuevoNombre = txtFila.getText();

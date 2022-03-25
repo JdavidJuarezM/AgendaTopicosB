@@ -42,14 +42,14 @@ public class PanelIngreso2022 extends JPanel implements ActionListener
    if(e.getSource()== btnIngresar){
      if(usuario.isEmpty() && contra.isEmpty())
      {
-       JOptionPane.showMessageDialog(null, "Ingrese usuario y contrasena");
+       JOptionPane.showMessageDialog(null, "Ingrese usuario y contraseña");
        txtUser.requestFocus();
      }
      else
      {
       if(usuario.equals("David") && contra.equals("1234"))
       { 
-        JOptionPane.showMessageDialog(null, "Bienvenida Administradora");
+        JOptionPane.showMessageDialog(null, "Bienvenido Administrador");
         JFrameMostrar datos = new JFrameMostrar();
       }
      else
